@@ -149,11 +149,13 @@ Analyzing “Email_10_BENIGN_MFA_Reminder.eml” <br/>
 - Ip and domain: 10.20.5.14 & "novacrest.example" <br/> 
 <img src="https://i.imgur.com/0PHHaV0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-<br />
+
 
 <p align="center">
  
-Analyzing "Email_03-Protected_Voice_Message.eml"<br/>
+## Threat Intel
+ 
+<br/>
  Revealed: <br/>
 - Failed/absent authentication methods(such as, SPF=failed, DKIM=none, DMARC=failed)<br/>
 - Phone number: "3055550184"<br/>
