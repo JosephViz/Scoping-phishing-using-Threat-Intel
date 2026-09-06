@@ -29,24 +29,34 @@ This project aimed to scope a simulated phishing campaign by using Open-Source I
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Email Evidence Dataset used in this walk through<br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Email Evidence Dataset used in this walk through: <br/>
+<img src="https://i.imgur.com/rDLcHGe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Analyzing "Email_01-Reported_Compensation_Acknowledgement" header.<br/>
+Revealed Failed Authentication results(SPF,DKIM, and DMARC), Abnormal IP address and Domain Name.<br/>
+<img src="https://i.imgur.com/M72GAZu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Analyzing "Email_02_Compensation_Revision.eml" header.<br/>
+Revealed failed Authentication results (SPF, DKIM, and DMARC), Abnormal IP address, and Domain Name
+<img src="https://i.imgur.com/sPtooMa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<br />
+Analyzing "Email_03-Protected_Voice_Message.eml  <br/>
+ Revealed:<br/>
+- Failed/absent authentication methods(such as, SPF=failed, DKIM=none, DMARC=failed)<br/>
+- Phone number: "3055550184"<br/>
+- Abnormal Ip and domain: 104.168.133.62 & "metalurgicasfelhenaresloeches[.]com <br/> <br/>
+<img src="https://i.imgur.com/8YRtSWI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Analyzing "Email_04_Missed_Call_Notification.eml" <br/>
+ Revealed: <br/>
+- 
+<img src="https://i.imgur.com/ew9w5Xp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Sanitization complete:  <br/>
