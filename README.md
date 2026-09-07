@@ -2,7 +2,17 @@
 ## Objective
 
 
-This project aimed to scope a simulated phishing campaign by using Open-Source Intelligence(OSINT) to investigate and enrich identified Indicators of Compromise (IOCs). Tools such as VirusTotal and AbuseIPDB were used to analyze suspicious IP addresses and domains, assess their reputationn, and identify potential malicious activity. The investigation focused on correlating threat intelligence findings with the phishing evidence to determine the campaign's scope and strengthen the overall incident analysis.
+This project aimed to scope a simulated phishing campaign by using Open-Source Intelligence(OSINT) to investigate and enrich identified Indicators of Compromise (IOCs). Tools such as VirusTotal and AbuseIPDB were used to analyze suspicious IP addresses and domains, assess their reputationn, and identify potential malicious activity. The investigation focused on correlating threat intelligence findings with the phishing evidence to determine the campaign's scope and strengthen the overall incident analysis.<b/>
+ - Attached Word link shows my incident response report following this exact order:<b/>
+ 1) Executive Summary
+ 2) Incident Timeline
+ 3) Findings
+ 4) Indicators of Compromise(IOC)
+ 5) MITRE ATT&CK Mapping
+ 6) Incident Scope
+ 7) Actions Taken
+ 8) Recommendations
+ 9) Lessons Learned
 
 ### Skills Learned
 
@@ -18,7 +28,7 @@ This project aimed to scope a simulated phishing campaign by using Open-Source I
 - Minor use of KQL queries in Azure
 
 ### Tools Used
-- ChatGPT/Claude for generating the emails, fake scenario, and organization
+- Minor use of AI: ChatGPT/Claude for generating the emails, fake scenario, organization, and Incident Response Report
 - source code editor (such as visual code) for analyzing email content & header
 - Threat Intelligence & Malware analysis platform (such as VirusTotal) to investigate domains & URLs 
 - IP reputation & Threat Intelligence Platform (AbuseIPDB) to investigate IP addresses and reports
