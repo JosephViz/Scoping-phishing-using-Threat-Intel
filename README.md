@@ -43,7 +43,7 @@ Email Evidence Dataset used in this walk through:
 Analyzing "Email_01-Reported_Compensation_Acknowledgement" header.<br/>
  Revealed: <br/>
  - Failed Authentication results(SPF,DKIM, and DMARC)<br/>
- - Abnormal IP address and Domain Name.
+ - Abnormal IP address and Domain Name: 192.174.87.78 & "altamimitex.com"
  <br/>
 
  
@@ -56,11 +56,12 @@ Analyzing "Email_01-Reported_Compensation_Acknowledgement" header.<br/>
 Analyzing "Email_02_Compensation_Revision.eml" header.<br/>
  Revealed: <br/>
 - Failed Authentication results (SPF, DKIM, and DMARC)<br/>
-- Abnormal IP address & Domain Name
+- Abnormal IP address & Domain Name: 192.174.87.78 & "altamimitex.com"
 <br/>
 
 
 <img src="https://i.imgur.com/sPtooMa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/C6NnVQq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <br />
@@ -238,9 +239,10 @@ Revealed: <br/>
 User login activity Investigation(User:Maria)
 <br/>
 Revealed: <br/>
-- User signed in from Miami at 12:45:00PM before phishing campaign initiated<br/>
-- At 2:39:41pm, after Maria clicked on link, logs indicate a sign-in from Amsterdam, NL, going into Microsoft 365<br/>
-- His last login was at 2:41:02pm via linux <br/>
+- User signed in from Miami at 12:45:00PM before submitting credentials<br/>
+- At 2:39:41pm, after Maria submitted credentials, logs reveal a sign-in from Amsterdam, NL, via Linux<br/>
+- IP address: 198.18.7.21 <br/>
+- last login was at 2:41:02pm, in which unknown entity went into Microsoft 365<br/>
 - Reveals impossible trave and stolen credentials
 <img src="https://i.imgur.com/ngi3mnO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 <br />
@@ -265,11 +267,12 @@ Revealed: <br/>
 User login activity Investigation(User:Caleb Wright)
 <br/>
 Revealed: <br/>
-- User signed in from Miami at 12:45:00PM before phishing campaign initiated<br/>
-- At 2:39:41pm, after Maria clicked on link, logs indicate a sign-in from Amsterdam, NL, going into Microsoft 365<br/>
-- His last login was at 2:41:02pm via linux <br/>
+- User signed in from Miami at 2:30:00pm before submitting credentials<br/>
+- At 2:59:33pm, after Caleb Wright submitted credentials, logs reveal a sign-in from Amsterdam, NL, via Linux.<br/>
+- IP address: 198.18.7.21 <br/>
+- First and last login was at 2:59:33pm, in which external threat actor went into Microsoft 365
 - Reveals impossible trave and stolen credentials
-<img src="https://i.imgur.com/ngi3mnO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/epBdHCT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 <br />
 <br />
 
@@ -278,11 +281,8 @@ Revealed: <br/>
 User login activity Investigation(User:Priya Noir)
 <br/>
 Revealed: <br/>
-- User signed in from Miami at 12:45:00PM before phishing campaign initiated<br/>
-- At 2:39:41pm, after Maria clicked on link, logs indicate a sign-in from Amsterdam, NL, going into Microsoft 365<br/>
-- His last login was at 2:41:02pm via linux <br/>
-- Reveals impossible trave and stolen credentials
-<img src="https://i.imgur.com/ngi3mnO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+- Logs indicate "Priya Noir" account was not accessed by the threat actor at any given time.
+<img src="https://i.imgur.com/O0XGYnM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 <br />
 <br />
 
