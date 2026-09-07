@@ -235,13 +235,54 @@ Revealed: <br/>
 
 <p align="center">
 
-Malicious Domain Analysis via VirusTotal(hxxps://altamimitex.com)
+User login activity Investigation(User:Maria)
 <br/>
 Revealed: <br/>
-- Domain name has been reported "malicious" by 20 different security vendors<br/>
-- First Submission, Last Submission, and Last Analysis<br/>
-- Flagged "phishing", "malware", and "Malicious" <br/>
-<img src="https://i.imgur.com/5CkU5G4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
-<img src="https://i.imgur.com/cChUYQk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- User signed in from Miami at 12:45:00PM before phishing campaign initiated<br/>
+- At 2:39:41pm, after Maria clicked on link, logs indicate a sign-in from Amsterdam, NL, going into Microsoft 365<br/>
+- His last login was at 2:41:02pm via linux <br/>
+- Reveals impossible trave and stolen credentials
+<img src="https://i.imgur.com/ngi3mnO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 <br />
 <br />
+
+<p align="center">
+
+User login activity Investigation(User:Samuel Price)
+<br/>
+Revealed: <br/>
+- User signed in from Miami at 2:16:00pm before submitting credentials<br/>
+- At 2:46:54pm, after Samuel Price submitted credentials, logs reveal a sign-in from Stockholm SE via Linux.<br/>
+- IP address: 198.18.7.44 <br/>
+- First and Last Login was at 2:46:45pm, in which unknown entity went into Microsoft 365
+- Reveals impossible trave and stolen credentials
+<img src="https://i.imgur.com/rZDUGie.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<br />
+<br />
+
+<p align="center">
+
+User login activity Investigation(User:Caleb Wright)
+<br/>
+Revealed: <br/>
+- User signed in from Miami at 12:45:00PM before phishing campaign initiated<br/>
+- At 2:39:41pm, after Maria clicked on link, logs indicate a sign-in from Amsterdam, NL, going into Microsoft 365<br/>
+- His last login was at 2:41:02pm via linux <br/>
+- Reveals impossible trave and stolen credentials
+<img src="https://i.imgur.com/ngi3mnO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<br />
+<br />
+
+<p align="center">
+
+User login activity Investigation(User:Priya Noir)
+<br/>
+Revealed: <br/>
+- User signed in from Miami at 12:45:00PM before phishing campaign initiated<br/>
+- At 2:39:41pm, after Maria clicked on link, logs indicate a sign-in from Amsterdam, NL, going into Microsoft 365<br/>
+- His last login was at 2:41:02pm via linux <br/>
+- Reveals impossible trave and stolen credentials
+<img src="https://i.imgur.com/ngi3mnO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<br />
+<br />
+
