@@ -18,7 +18,7 @@ This project aimed to scope a simulated phishing campaign by using Open-Source I
 - Minor use of KQL queries in Azure
 
 ### Tools Used
-
+- ChatGPT/Claude for generating the emails, fake scenario, and organization
 - source code editor (such as visual code) for analyzing email content & header
 - Threat Intelligence & Malware analysis platform (such as VirusTotal) to investigate domains & URLs 
 - IP reputation & Threat Intelligence Platform (AbuseIPDB) to investigate IP addresses and reports
@@ -148,31 +148,62 @@ Analyzing “Email_10_BENIGN_MFA_Reminder.eml” <br/>
 - Consistent domain name throughout "Return-path", "Reply-To", & "From" "<br/>
 - Ip and domain: 10.20.5.14 & "novacrest.example" <br/> 
 <img src="https://i.imgur.com/0PHHaV0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-
+<br/>
+<br/>
 
 <p align="center">
  
-## Threat Intel
+ ## Threat Intel
+
+<p align="center">
+
+IOC Enrichment Through AbuseIPDB(192.178.87.78)
+<br/>
+Revealed: <br/>
+- IP was reported 65 times.<br/>
+- Confidence of Abuse is 21%<br/>
+- City, Domain Name, and Country <br/>
+- Reporting of recent activities and IoA Timestamps<br/>
+<img src="https://i.imgur.com/TxnNSP3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/QOuD60c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+<p align="center">
  
+IOC Enrichment Through AbuseIPDB(104.168.133.62) 
 <br/>
  Revealed: <br/>
-- Failed/absent authentication methods(such as, SPF=failed, DKIM=none, DMARC=failed)<br/>
-- Phone number: "3055550184"<br/>
-- Abnormal Ip and domain: 104.168.133.62 & "metalurgicasfelhenaresloeches[.]com" <br/> 
-<img src="https://i.imgur.com/8YRtSWI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- IP was reported 3 times; Confidence of Abuse:0%<br/>
+- City, Domain Name, and Country<br/>
+- Reporting of recent activities and IoA Timestamps <br/> 
+<img src="https://i.imgur.com/I9dOxQU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/HLzcsST.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
 <p align="center">
- 
-Analyzing "Email_03-Protected_Voice_Message.eml"<br/>
- Revealed: <br/>
-- Failed/absent authentication methods(such as, SPF=failed, DKIM=none, DMARC=failed)<br/>
-- Phone number: "3055550184"<br/>
-- Abnormal Ip and domain: 104.168.133.62 & "metalurgicasfelhenaresloeches[.]com" <br/> 
-<img src="https://i.imgur.com/8YRtSWI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Malicious Domain Analysis via VirusTotal(hxxps://altamimitex.com)
+<br/>
+Revealed: <br/>
+- Domain name has been reported "malicious" by 20 different security vendors<br/>
+- First Submission, Last Submission, and Last Analysis<br/>
+- Flagged "phishing", "malware", and "Malicious" <br/>
+<img src="https://i.imgur.com/5CkU5G4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/cChUYQk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
+<p align="center">
 
+Malicious Domain Analysis via VirusTotal(hxxps://metalurgicasdelhenaresloeches.com)
+<br/>
+Revealed: <br/>
+- Domain name has been reported "Malicious" by 14 different security vendors<br/>
+- First Submission, Last Submission, and Last Analysis<br/>
+- Flagged "phishing", and "Malicious" <br/>
+<img src="https://i.imgur.com/53VNpdA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/xqtI4fW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
