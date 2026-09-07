@@ -207,3 +207,41 @@ Revealed: <br/>
 <img src="https://i.imgur.com/xqtI4fW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+
+## How far did this spread? Who clicked? and who's actually compromised? via Azure Data explorer
+
+<p align="center">
+
+Ran a KQL query specifying mail delivery. Scoping it by SenderIP, SPF/DKIM/DMARC results, and campaign
+<br/>
+Revealed: <br/>
+- Campaign A, 192.174.87.78 sent 9 messages to 9 different employees. One was trashed, while another was quarentined<br/>
+- Campaign B, 104.168.133.62, sent 8 messages to 8 different employeess. however 2/8 messages were blocked.<br/>
+<img src="https://i.imgur.com/myF79C5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<br />
+<br />
+
+<p align="center">
+
+Minimizing the scope by querying who clicked on what, and who submitted credentials
+<br/>
+Revealed: <br/>
+- In campaign A, four employees clicked on the "hxxps://altamimitex.com" link while two of them clicked and submitted credentials.<br/>
+- In campaign B, two employees clicked on the "hxxps://metalurgicasdelhenaresloeches.com” link and both submitted credentials.<br/>
+<img src="https://i.imgur.com/ZyKv5Sv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/wKQC9lZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+<p align="center">
+
+Malicious Domain Analysis via VirusTotal(hxxps://altamimitex.com)
+<br/>
+Revealed: <br/>
+- Domain name has been reported "malicious" by 20 different security vendors<br/>
+- First Submission, Last Submission, and Last Analysis<br/>
+- Flagged "phishing", "malware", and "Malicious" <br/>
+<img src="https://i.imgur.com/5CkU5G4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/cChUYQk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
